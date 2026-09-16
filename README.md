@@ -1,16 +1,24 @@
-# React + Vite
+# Piano Emulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React web app that emulates a 3-octave piano (C3–C6) in the browser.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Free Play** — click piano keys or use your computer keyboard; every note has a dedicated key (see the in-app Keyboard Guide).
+- **Multiple instruments** — Grand Piano, Organ, Chiptune, and Warm Strings, all synthesized live with the Web Audio API.
+- **Song Library** — built-in and user-created songs, saved locally in your browser.
+- **Song Editor** — a piano-roll editor with playback preview to compose your own songs.
+- **Gameplay Mode** — falling-notes rhythm game (like YouTube MIDI videos): press the right key as each note reaches the line, score Perfect/Good/Miss and build combos.
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the Oxlint configuration
+Then open the URL shown in the terminal (default: http://localhost:5173).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Tech
+
+React + Vite, Web Audio API for sound, localStorage for song persistence. No audio samples or backend required.
