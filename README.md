@@ -4,6 +4,7 @@ A React web app that emulates a 3-octave piano (C3–C6) in the browser.
 
 ## Features
 
+- **Keybindings**: keep your hand on the home row of the keyboard
 - **Free Play**: click piano keys or use your computer keyboard; every note has a dedicated key (see the in-app Keyboard Guide).
 - **Multiple instruments**: Grand Piano, Organ, Chiptune, and Warm Strings, all synthesized live with the Web Audio API.
 - **Song Library**: built-in and user-created songs, saved locally in your browser.
