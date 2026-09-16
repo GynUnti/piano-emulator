@@ -23,3 +23,7 @@ Then open the URL shown in the terminal (default: http://localhost:5173).
 ## Tech
 
 React + Vite, Web Audio API for sound, localStorage for song persistence. No audio samples or backend required.
+
+## Demo
+https://github.com/user-attachments/assets/22739547-1e40-4dcc-9771-3453ac4cecf0
+
